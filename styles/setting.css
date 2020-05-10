@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: white;
+  --black: black;
+
+  --primary-font: "Montserrat";
+  --secondary-font: "Lobster";
+
+  --bg: #BA426C;
+
+  --bg-btn: #F3A74C;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  font-family: var(--primary-font), var(--secondary-font), sans-serif;
+
+  background-image: linear-gradient(to right, #5A3D57, #953c6c);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: auto;
+}
